@@ -29,7 +29,7 @@ const renderer = require('vue-server-renderer').createRenderer()
 // Step 3: Render the Vue instance to HTML
 renderer.renderToString(app, (err, html) => {
   if (err) throw err
-  console.log(html)
+  console.log(html);
   // => <div data-server-rendered="true">Hello World</div>
 })
 
